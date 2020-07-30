@@ -11,10 +11,13 @@ github:
 ########
 # more settings
 
-root: /
-url:              'http://alioh.github.io'
-baseurl:          '/ds-100-ar'
+
+url:              https://alioh.github.io
+baseurl:          /ds-100-ar
 rss:              RSS
+
+permalink: /:title/
+
 
 collections:
   chapters:

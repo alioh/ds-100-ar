@@ -19,9 +19,9 @@ collections:
   chapters:
       output: false
 
-sass:
-  sass_dir: css
-  style:    expanded
+# sass:
+#   sass_dir: css
+#   style:    expanded
 
 exclude:
 - README.md

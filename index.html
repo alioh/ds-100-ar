@@ -8,7 +8,10 @@ layout: default
 
 {% for chapter in site.chapters %}
   <a name="{{ forloop.index }}"></a>
-  <h2>{{ chapter.title }}</h2><!-- use h2 - why? why not? -->
+  {% if chapter.show_title %}
+    <h2>{{ chapter.title }}</h2><!-- use h2 - why? why not? -->
+  {% endif %}
+
   {{ chapter.content }}
 {% endfor %}         
 

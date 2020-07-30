@@ -35,13 +35,23 @@
             else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
         </script>
 
-        <div id="sidebar" class="sidebar">
-            <ul class="chapter" style="list-style-type:none;">
-                
+        <div id="sidebar" class="sidebar" dir="rtl">
+            <ul class="chapter">
+            
               {% for chapter in site.chapters %}
+                {% if chapter.chapter_start %}
+                    {{ chapter.chapter_name}}
+                {% endif %}
+
+                
               <li>
-                <a href="#{{ forloop.index }}"><strong>{{ forloop.index }}.</strong> {{ chapter.title }}</a>
+                <a href="#{{ chapter.title }}">{% if chapter.lesson %}<strong>{{ chapter.lesson }}. </strong>{% else %}&nbsp;&nbsp;{% endif %}{{ chapter.title }}</a>
               </li>
+
+                {% if chapter.chapter_end %}
+                    <hr class="solid">
+                {% endif %}
+
               {% endfor %}
                 
             </ul>
@@ -49,23 +59,25 @@
 
         <div id="page-wrapper" class="page-wrapper">
 
-            <div class="page">
+            <div class="page" >
                 <div id="menu-bar" class="menu-bar">
                     <div class="left-buttons">
                         <i id="sidebar-toggle" class="fa fa-bars"></i>
                         <i id="theme-toggle" class="fa fa-paint-brush"></i>
                     </div>
 
-                    <h1 class="menu-title">{{ site.title }}</h1>
+                    {% comment %} <h1 class="menu-title">{{ site.title }}</h1> {% endcomment %}
 
                     <div class="right-buttons">
                         <i id="print-button" class="fa fa-print" title="Print this book"></i>
                     </div>
                 </div>
-                    
-                 {{ content }}
 
+                <div dir="rtl">
+                {{ content }}
+                </div>
             </div>
+
         </div>
         <script src="js/book.js"></script>
     </body>

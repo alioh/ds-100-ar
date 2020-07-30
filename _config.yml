@@ -12,7 +12,7 @@ github:
 # more settings
 
 url:              ''
-baseurl:          ''
+baseurl:          'ds-100-ar'
 rss:              RSS
 
 collections:

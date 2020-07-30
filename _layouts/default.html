@@ -40,12 +40,11 @@
             
               {% for chapter in site.chapters %}
                 {% if chapter.chapter_start %}
-                    {{ chapter.chapter_name}}
+                    <li>{{ chapter.chapter_name}}</li>
                 {% endif %}
-
                 
               <li>
-                <a href="#{{ chapter.title }}">{% if chapter.lesson %}<strong>{{ chapter.lesson }}. </strong>{% else %}&nbsp;&nbsp;{% endif %}{{ chapter.title }}</a>
+                <a href="#{{ chapter.title }}">{% if chapter.lesson %}<strong>{{ chapter.lesson_number }}. </strong>{% elsif chapter.show_title == false %} {% else %}- {% endif %}{{ chapter.title }}</a>
               </li>
 
                 {% if chapter.chapter_end %}

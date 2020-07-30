@@ -5,6 +5,7 @@ show_title: true/false عرض أو اخفاء العنوان في الصفحة �
 chapter_end: true/false اضافة خط أسفل هذا العنوان
 chapter_start: true/false اضافة عنوان للفصل
 chapter_name: text عنوان الفصل
+lesson_number: number رقم الدرس
 
 
 # مرجع المصطلحات

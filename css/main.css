@@ -9,6 +9,7 @@ body {
 .right {
   float: right;
 }
+
 .hidden {
   display: none;
 }
@@ -60,6 +61,11 @@ table thead td {
     left: -300px;
   }
 }
+
+.sidebar ul {
+    margin-top: 20px;
+    padding-right: 5px;
+}
 .sidebar code {
   line-height: 2em;
 }
@@ -75,7 +81,6 @@ table thead td {
   line-height: 1.9em;
 }
 .chapter li a {
-  list-style:none;
   padding: 5px 0;
   text-decoration: none;
 }
@@ -325,7 +330,8 @@ table thead td {
   color: #364149;
 }
 .light .chapter li {
-  color: #aaa;
+  /* color: #aaa; */
+  color: #364149;
 }
 .light .chapter li a {
   color: #364149;

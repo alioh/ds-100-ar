@@ -1,0 +1,9 @@
+docs_list_title: ACME Documentation
+
+contents:
+  - title: Introduction
+    url: chapters/01
+  - title: Configuration
+    url: chapters/02
+  - title: Deployment
+    url: chapters/03

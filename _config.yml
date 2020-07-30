@@ -12,8 +12,7 @@ github:
 # more settings
 
 
-url:              https://alioh.github.io/ds-100-ar
-baseurl:          '/ds-100-ar'
+baseurl:          'http://alioh.github.io/ds-100-ar'
 rss:              RSS
 
 permalink: /:title/

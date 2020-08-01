@@ -63,12 +63,13 @@ table thead td {
 }
 
 .sidebar ul {
-    margin-top: 20px;
-    padding-right: 5px;
+    /* margin-top: 10px; */
+    padding-right: 15px;
 }
 .sidebar code {
   line-height: 2em;
 }
+
 .sidebar-hidden .sidebar {
   left: -300px;
 }

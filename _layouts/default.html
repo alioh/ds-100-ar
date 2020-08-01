@@ -48,12 +48,20 @@
                 {% if chapter.chapter_start %}
                     <li>{{ chapter.chapter_name}}</li>
                 {% endif %}
-                
               <li>
-                <a href="#{{ chapter.title }}">{% if chapter.lesson %}<strong>{{ chapter.lesson_number }}. </strong>{% elsif chapter.show_title == false %} {% else %}- {% endif %}{{ chapter.title }}</a>
+                <a href="#{{ chapter.title }}">{% if chapter.chapter_number %}<strong>{{ chapter.chapter_number }}. </strong>{% endif %}{{ chapter.title }}</a>
+                {% if chapter.chapter_lessons %} 
+                    
+                    <ul class="chapter">
+                    {% for lesson in chapter.chapter_lessons %}
+                    {% comment %} {% for l in lesson %}{{l}}{% endfor %} {% endcomment %}
+                        <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ lesson[1] }}">{{lesson[1]}}</a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
               </li>
 
-                {% if chapter.chapter_end %}
+                {% if chapter.add_line %}
                     <hr class="solid">
                 {% endif %}
 

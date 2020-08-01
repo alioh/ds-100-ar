@@ -10,10 +10,11 @@ bundle exec jekyll serve
 title: text العنوان
 lesson: true/false عرض أو اخفاء الرقم قبل العنوان
 show_title: true/false عرض أو اخفاء العنوان في الصفحة الرئيسية
-chapter_end: true/false اضافة خط أسفل هذا العنوان
+add_line: true/false اضافة خط أسفل هذا العنوان
 chapter_start: true/false اضافة عنوان للفصل
 chapter_name: text عنوان الفصل
-lesson_number: number رقم الدرس
+chapter_number: number اضافة رقم قبل الدرس
+chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
 
 
 # مرجع المصطلحات

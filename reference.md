@@ -1,3 +1,11 @@
+# fix ruby terminal error
+chcp 1252
+https://stackoverflow.com/questions/22815542/rails4-unknown-encoding-name-cp720
+
+# run jekyll locally 
+bundle exec jekyll serve
+
+
 # مرجع خيارات صفحة مارك داون
 title: text العنوان
 lesson: true/false عرض أو اخفاء الرقم قبل العنوان

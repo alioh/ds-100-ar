@@ -66,6 +66,11 @@ table thead td {
   display: none;
 }
 
+#translator-button, #translator-button:hover, #translator-button:focus, #translator-button:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sidebar ul {
     /* margin-top: 10px; */
     padding-right: 5px;

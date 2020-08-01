@@ -120,6 +120,11 @@ $( document ).ready(function() {
         $(this).next("ul").toggle("slow");
       });
 
+    // click to show itmes inside list
+    $(".chapter_title").click(function(){
+        $(this).next("a").toggle("slow");
+        });
+
     function set_theme(theme) {
         if (theme == 'coal' || theme == 'navy') {
             $("[href='tomorrow-night.css']").prop('disabled', false);

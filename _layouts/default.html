@@ -44,20 +44,20 @@
         <div id="sidebar" class="sidebar" dir="rtl">
             <ul class="chapter">
               {% for chapter in site.chapters %}
-                {% if chapter.chapter_start %}
-                    <li class="chapter_title">{{ chapter.chapter_name}}</li>
-                {% endif %}
               <li>
-                <span class="chapter_title">{% if chapter.chapter_number %}<a href="#"><strong>{{ chapter.chapter_number }}. </strong>{% endif %}{{ chapter.title }}</a> {% if chapter.show_arrow %}<a href="#{{ chapter.title }}">↶</a>{% endif %}</span>
+                <span class="chapter_title">{% if chapter.chapter_number %}<a href="#"><strong>{{ chapter.chapter_number }}. </strong> {{ chapter.title }}</a>{% else %}<a href="#{{ chapter.title }}">{{ chapter.title }}</a>{% endif %}</span>
                 {% if chapter.chapter_lessons %} 
                     <ul class="chapter" id="hidden_item">
                     {% for lesson in chapter.chapter_lessons %}
-                        <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ lesson[1] }}">{{lesson[1]}}</a></li>
+                        {% if lesson[1] == "مقدمة" %}
+                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ chapter.title }}">{{lesson[1]}}</a></li>
+                        {% else %}
+                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ lesson[1] }}">{{lesson[1]}}</a></li>
+                        {% endif %}
                     {% endfor %}
                     </ul>
                 {% endif %}
               </li>
-
                 {% if chapter.add_line %}
                     <hr class="solid">
                 {% endif %}

@@ -15,7 +15,7 @@ chapter_start: true/false اضافة عنوان للفصل
 chapter_name: text عنوان الفصل
 chapter_number: number اضافة رقم قبل الدرس
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
-
+show_arrow: true/false اظهار سهم جانب العنوان للإنتقال له
 
 # مرجع المصطلحات
 

@@ -112,6 +112,14 @@ $( document ).ready(function() {
 
     });
 
+    // hide all items with id 'hidden_item'
+    $('#hidden_item').hide();
+
+    // click to show itmes inside list
+    $(".chapter_title").click(function(){
+        $(this).next("ul").toggle("slow");
+      });
+
     function set_theme(theme) {
         if (theme == 'coal' || theme == 'navy') {
             $("[href='tomorrow-night.css']").prop('disabled', false);

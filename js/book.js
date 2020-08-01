@@ -95,10 +95,10 @@ $( document ).ready(function() {
             $('.theme-popup').remove();
         } else {
             var popup = $('<div class="theme-popup"></div>')
-                .append($('<div class="theme" id="light">Light <span class="default">(default)</span><div>'))
-                .append($('<div class="theme" id="rust">Rust</div>'))
-                .append($('<div class="theme" id="coal">Coal</div>'))
-                .append($('<div class="theme" id="navy">Navy</div>'));
+                .append($('<div class="theme" id="light">خفيف <span class="default">(الأفتراضي)</span><div>'))
+                .append($('<div class="theme" id="rust">بني</div>'))
+                .append($('<div class="theme" id="coal">أسود فحمي</div>'))
+                .append($('<div class="theme" id="navy">أزرق بحري</div>'));
 
 
             popup.insertAfter(this);

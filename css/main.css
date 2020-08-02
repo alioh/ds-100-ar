@@ -64,7 +64,6 @@ table thead td {
 
 .language-python {
   direction: ltr;
-  position: relative;
   margin: 0 10px;
   z-index: 10;
   background-color: #f2f2f2;
@@ -74,16 +73,18 @@ table thead td {
   padding-right: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 .language-python::before{
   color: #333333;
   content: "\f121";
   display: block;
+  direction: rtl;
   right: 0;
   height:100%;
   opacity: 60%;
   margin-right: 5px;
-  position: absolute;
+  position: relative;
   font-family: "FontAwesome"
 }
 

@@ -71,6 +71,11 @@ table thead td {
   color: inherit;
 }
 
+#share-button, #share-button:hover, #share-button:focus, #share-button:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sidebar ul {
     /* margin-top: 10px; */
     padding-right: 5px;
@@ -170,7 +175,7 @@ table thead td {
   max-width: 100%;
 }
 .menu-bar {
-  position: fixed;
+  /* position: fixed; */
   height: 50px;
   top:0;
 }

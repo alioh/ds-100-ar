@@ -62,6 +62,31 @@ table thead td {
   }
 }
 
+.language-python {
+  direction: ltr;
+  position: relative;
+  margin: 0 10px;
+  z-index: 10;
+  background-color: #f2f2f2;
+  width: fit-content;
+  margin-right: inherit;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.language-python::before{
+  color: #333333;
+  content: "\f121";
+  display: block;
+  right: 0;
+  height:100%;
+  opacity: 60%;
+  margin-right: 5px;
+  position: absolute;
+  font-family: "FontAwesome"
+}
+
 #hidden_item {
   display: none;
 }
@@ -175,6 +200,7 @@ table thead td {
   max-width: 100%;
 }
 .menu-bar {
+  background: inherit;
   position: fixed;
   height: 50px;
   top:0;

@@ -40,7 +40,7 @@
             if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
             else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
         </script>
-
+        
         <div id="sidebar" class="sidebar" dir="rtl">
             <ul class="chapter">
               {% for chapter in site.chapters %}
@@ -68,8 +68,8 @@
         </div>
 
         <div id="page-wrapper" class="page-wrapper">
-
             <div class="page" >
+                <a name="top"></a>
                 <div id="menu-bar" class="menu-bar">
                     <div class="left-buttons">
                         <i id="sidebar-toggle" class="fa fa-bars" title="الفهرس"></i>
@@ -77,6 +77,7 @@
                         <a id="translator-button" href="https://www.alioh.com/" target="_blank"><i class="fa fa-language" title="صفحة المترجم الشخصية"></i></a>
                         <i id="theme-toggle" class="fa fa-paint-brush" title="تغير لون الصفحة"></i>
                         <i id="share-toggle" class="fa fa-share-alt" title="مشاركة الكتاب"></i>
+                        <a class="go-back-top" id="translator-button" href="#top"><i class="fa fa-caret-square-o-up" title="العودة للبداية"></i></a>
                     </div>
                     <!-- <h1 class="menu-title">{{ site.title }}</h1> -->
                     <div class="right-buttons">
@@ -87,7 +88,6 @@
                 {{ content }}
                 </div>
             </div>
-
         </div>
         <script src="js/book.js"></script>
     </body>

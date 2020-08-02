@@ -62,6 +62,15 @@ table thead td {
   }
 }
 
+.go-back-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: xx-large;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
 .language-python {
   direction: ltr;
   margin: 0 10px;
@@ -73,7 +82,7 @@ table thead td {
   padding-right: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .language-python::before{
   color: #333333;
@@ -202,7 +211,7 @@ table thead td {
 }
 .menu-bar {
   background: inherit;
-  position: fixed;
+  /* position: fixed; */
   height: 50px;
   top:0;
 }

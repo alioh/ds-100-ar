@@ -242,7 +242,7 @@ table thead td {
 }
 .menu-bar {
   background: inherit;
-  /* position: fixed; */
+  position: fixed;
   height: 50px;
   top:0;
 }

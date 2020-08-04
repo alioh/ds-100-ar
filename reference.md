@@ -1,3 +1,6 @@
+# code-result
+you have to add `br` tag after it
+
 # fix ruby terminal error
 chcp 1252
 https://stackoverflow.com/questions/22815542/rails4-unknown-encoding-name-cp720

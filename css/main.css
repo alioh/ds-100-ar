@@ -71,11 +71,40 @@ table thead td {
   margin-bottom: 15px;
 }
 
+.language-code-result {
+  direction: ltr;
+  margin: 0 10px;
+  z-index: 10;
+  background-color: #f7f7f7;
+  width: fit-content;
+  float: left;
+  margin-right: inherit;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.language-center-result {
+  display: block;
+  text-align: -webkit-center;
+  direction: ltr;
+  color: #333333;
+}
+
+.language-code-result::before{
+  color: #333333;
+  content: "> ";
+  position: relative;
+}
+
 .language-python {
   direction: ltr;
   margin: 0 10px;
   z-index: 10;
-  background-color: #f2f2f2;
+  background-color: #e9e9e9;
   width: fit-content;
   margin-right: inherit;
   padding-top: 5px;
@@ -83,7 +112,9 @@ table thead td {
   padding-bottom: 5px;
   padding-left: 10px;
   margin-bottom: 20px;
+  color: #333333;
 }
+
 .language-python::before{
   color: #333333;
   content: "\f121";

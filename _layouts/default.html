@@ -6,17 +6,17 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Calibri:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-        <link rel="manifest" href="img/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/img/favicon-16x16.png">
+        <link rel="manifest" href="{{ site.baseurl }}/img/site.webmanifest">
 
         <!-- Fetch JQuery from CDN but have a local fallback -->
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -43,27 +43,26 @@
         
         <div id="sidebar" class="sidebar" dir="rtl">
             <ul class="chapter">
-              {% for chapter in site.chapters %}
-              <li>
-                <span class="chapter_title">{% if chapter.chapter_number %}<a href="#"><strong>{{ chapter.chapter_number }}. </strong> {{ chapter.title }}</a>{% else %}<a href="#{{ chapter.title }}">{{ chapter.title }}</a>{% endif %}</span>
-                {% if chapter.chapter_lessons %} 
-                    <ul class="chapter" id="hidden_item">
-                    {% for lesson in chapter.chapter_lessons %}
-                        {% if lesson[1] == "مقدمة" %}
-                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ chapter.title }}">{{lesson[1]}}</a></li>
-                        {% else %}
-                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{ lesson[1] }}">{{lesson[1]}}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                    </ul>
-                {% endif %}
-              </li>
-                {% if chapter.add_line %}
-                    <hr class="solid">
-                {% endif %}
-
-              {% endfor %}
-                
+                <li><a href="{{ site.baseurl }}/"><strong>الصفحة الرئيسية</strong></a><hr class="solid"></li>
+                {% for chapter in site.posts reversed %}
+                <li>
+                    {% if chapter.chapter_number %}<a href="{{ site.baseurl }}{{ chapter.url }}"><strong>{{ chapter.chapter_number }}. </strong> {{ chapter.title }}</a>  <span class="chapter_title">  <i class="fa fa-sort-desc"></i></span>{% else %}<a href="{{ site.baseurl }}/#{{ chapter.title }}">{{ chapter.title }}{% endif %}</a>
+                    {% if chapter.chapter_lessons %} 
+                        <ul class="chapter" id="hidden_item">
+                        {% for lesson in chapter.chapter_lessons %}
+                            {% if lesson[1] == "مقدمة" %}
+                                <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}">{{lesson[1]}}</a></li>
+                            {% else %}
+                                <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}">{{lesson[1]}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+                    {% if chapter.add_line %}
+                        <hr class="solid">
+                    {% endif %}
+                {% endfor %}
             </ul>
         </div>
 
@@ -81,7 +80,7 @@
                     </div>
                     <!-- <h1 class="menu-title">{{ site.title }}</h1> -->
                     <div class="right-buttons">
-                                            </div>
+                    </div>
                 </div>
 
                 <div dir="rtl">
@@ -89,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <script src="js/book.js"></script>
+        <script src="{{ site.baseurl }}/js/book.js"></script>
     </body>
 </html>
 <script type="text/javascript" async

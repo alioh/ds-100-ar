@@ -71,13 +71,12 @@ table thead td {
   margin-bottom: 15px;
 }
 
-.language-code-result {
+.language-ruby {
   direction: ltr;
   margin: 0 10px;
   z-index: 10;
   background-color: #f7f7f7;
   width: fit-content;
-  float: left;
   margin-right: inherit;
   padding-top: 5px;
   padding-right: 10px;
@@ -87,17 +86,17 @@ table thead td {
   color: #333333;
 }
 
+/* .language-ruby::before{
+  color: #333333;
+  content: "> ";
+  position: relative;
+} */
+
 .language-center-result {
   display: block;
   text-align: -webkit-center;
   direction: ltr;
   color: #333333;
-}
-
-.language-code-result::before{
-  color: #333333;
-  content: "> ";
-  position: relative;
 }
 
 .language-python {

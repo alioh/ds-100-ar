@@ -50,11 +50,7 @@
                     {% if chapter.chapter_lessons %} 
                         <ul class="chapter" id="hidden_item">
                         {% for lesson in chapter.chapter_lessons %}
-                            {% if lesson[1] == "مقدمة" %}
-                                <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}">{{lesson[1]}}</a></li>
-                            {% else %}
-                                <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}">{{lesson[1]}}</a></li>
-                            {% endif %}
+                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}#{{lesson[1]}}">{{lesson[1]}}</a></li>
                         {% endfor %}
                         </ul>
                     {% endif %}
@@ -71,20 +67,25 @@
                 <a name="top"></a>
                 <div id="menu-bar" class="menu-bar">
                     <div class="left-buttons">
+                        <a class="go-back-top" id="translator-button" href="#top"><i class="fa fa-caret-square-o-up" title="العودة للبداية"></i></a>
                         <i id="sidebar-toggle" class="fa fa-bars" title="الفهرس"></i>
                         <i id="print-button" class="fa fa-print" title="طباعة الكتاب"></i>
                         <a id="translator-button" href="https://www.alioh.com/" target="_blank"><i class="fa fa-language" title="صفحة المترجم الشخصية"></i></a>
                         <i id="theme-toggle" class="fa fa-paint-brush" title="تغير لون الصفحة"></i>
                         <i id="share-toggle" class="fa fa-share-alt" title="مشاركة الكتاب"></i>
-                        <a class="go-back-top" id="translator-button" href="#top"><i class="fa fa-caret-square-o-up" title="العودة للبداية"></i></a>
                     </div>
                     <!-- <h1 class="menu-title">{{ site.title }}</h1> -->
                     <div class="right-buttons">
                     </div>
                 </div>
 
-                <div dir="rtl">
-                {{ content }}
+                <div id="content" class="content">
+                    {% if page.url == '/' %}{% else %}<h1>{{ site.title }}</h1>{% endif %}
+                    
+                    {{ content }}
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
@@ -92,5 +93,5 @@
     </body>
 </html>
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>

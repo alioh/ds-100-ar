@@ -22,6 +22,7 @@
 [joey]: https://people.eecs.berkeley.edu/~jegonzal/
 [deb]: https://www.stat.berkeley.edu/~nolan/
 [ali]: https://www.alioh.com/
+[nuha]: https://www.linkedin.com/in/nuha-alghamdi-69a98888/
 [data8]: http://data8.org/
 [ds100]: http://www.ds100.org/
 [ActivationFunction1]: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0

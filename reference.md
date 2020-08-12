@@ -11,14 +11,12 @@ http://blog.lostinmyterminal.com/webpages/2015/01/09/math-support-in-jekyll.html
 http://zjuwhw.github.io/2017/06/04/MathJax.html
 
 # مرجع خيارات صفحة مارك داون
-title: text العنوان
+title: text العنوان - سيضاف لعنوان الصفحة ايضاً
 lesson: true/false عرض أو اخفاء الرقم قبل العنوان
 show_title: true/false عرض أو اخفاء العنوان في الصفحة الرئيسية
 add_line: true/false اضافة خط أسفل هذا العنوان
-chapter_start: true/false اضافة عنوان للفصل
-chapter_name: text عنوان الفصل
 chapter_number: number اضافة رقم قبل الدرس
-chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني)
+chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني) - سيضاف لعنوان الصفحة ايضاً
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
 
 # مرجع المصطلحات

@@ -5,6 +5,10 @@ https://stackoverflow.com/questions/22815542/rails4-unknown-encoding-name-cp720
 # run jekyll locally 
 bundle exec jekyll serve
 
+# local shortcut for ```python/ruby
+`p + ctrl+space
+`r + ctrl+space
+
 # MathJax
 https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 http://blog.lostinmyterminal.com/webpages/2015/01/09/math-support-in-jekyll.html

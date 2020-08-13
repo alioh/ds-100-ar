@@ -33,4 +33,4 @@ show_index: true
 [gradientAR]: https://www.youtube.com/watch?v=aumzuCzIruE
 [vectors]: https://www.mathsisfun.com/algebra/vectors.html
 [matrixEN]: https://www.mathsisfun.com/algebra/matrix-introduction.html
-[matrixAR]: https://www.youtube.com/watch?v=1n3m49XtW0k
+[matrixAR]: https://www.youtube.com/watch?v=P8tXDuP9t88&list=PL08ef9eJxtJa3svcoUCDmG-_lDx2ihWKF

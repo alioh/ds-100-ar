@@ -29,7 +29,7 @@ show_index: true
 [LeastSquaresRegression]: https://www.mathsisfun.com/data/least-squares-regression.html
 [derivativesEN]: https://www.mathsisfun.com/calculus/derivatives-introduction.html
 [derivativesAR]: https://www.youtube.com/watch?v=UPaq_ZOmBeI
-[gradientEN]: https://www.mathsisfun.com/gradient.html
+[gradientEN]: https://betterexplained.com/articles/vector-calculus-understanding-the-gradient/
 [gradientAR]: https://www.youtube.com/watch?v=aumzuCzIruE
 [vectors]: https://www.mathsisfun.com/algebra/vectors.html
 [matrixEN]: https://www.mathsisfun.com/algebra/matrix-introduction.html

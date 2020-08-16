@@ -6,6 +6,28 @@ https://stackoverflow.com/questions/22815542/rails4-unknown-encoding-name-cp720
 bundle exec jekyll serve
 
 # local shortcut for ```python/ruby
+- file > preferences > user snippets > markdown.json:
+	"Python code": {
+		"prefix": "`p",
+		"body": [
+		  "```python",
+		  "",
+		  "```"
+		],
+		"description": "Python code"
+	  },
+
+	  "Ruby code": {
+		"prefix": "`r",
+		"body": [
+		  "```ruby",
+		  "",
+		  "```"
+		],
+		"description": "Ruby code"
+	  }
+
+to use:
 `p + ctrl+space
 `r + ctrl+space
 

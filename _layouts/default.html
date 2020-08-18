@@ -46,7 +46,7 @@
                 <li><a href="{{ site.baseurl }}/"><strong>الصفحة الرئيسية</strong></a><hr class="solid"></li>
                 {% for chapter in site.posts reversed %}
                 <li>
-                    {% if chapter.chapter_number %}<a href="{{ site.baseurl }}{{ chapter.url }}"><strong>{{ chapter.chapter_number }}. </strong> {{ chapter.title }}</a>  <span class="chapter_title">  <i class="fa fa-sort-desc"></i></span>{% else %}<a href="{{ site.baseurl }}/#{{ chapter.title }}">{{ chapter.title }}{% endif %}</a>
+                    {% if chapter.chapter_number %}<a href="{{ site.baseurl }}{{ chapter.url }}"><strong>{{ chapter.chapter_number }}. </strong> {{ chapter.title }}</a>  <span class="chapter_title">  {% if chapter.chapter_number == 0%}{% else %}<i class="fa fa-sort-desc"></i>{% endif %}</span>{% else %}<a href="{{ site.baseurl }}/#{{ chapter.title }}">{{ chapter.title }}{% endif %}</a>
                     {% if chapter.chapter_lessons %} 
                         <ul class="chapter" id="hidden_item">
                         {% for lesson in chapter.chapter_lessons %}

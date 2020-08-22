@@ -14,8 +14,10 @@ layout: default
 |المصطلح الإنجليزي|المصطلح العربي|المعنى|روابط مساعدة|
 |:---:|:---:|:---:|
 | dataset | البيانات | مجموعة بيانات متكونه على شكل جدول أو قاعدة بيانات | [📝][datasetEN] [📝][datasetAR] |
+| Series | مجموعة (مصفوفة أحادية البعد) | مجموعة بيانات متكونه على شكل مصفوفة أحادية البعد | [📝][SeriesEN] |
 
 
 
 [datasetEN]: https://whatis.techtarget.com/definition/data-set
 [datasetAR]: https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA
+[SeriesEN]: https://www.tutorialspoint.com/python_pandas/python_pandas_series.htm

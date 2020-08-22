@@ -44,6 +44,7 @@ add_line: true/false اضافة خط أسفل هذا العنوان
 chapter_number: number اضافة رقم قبل الدرس
 chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني) - سيضاف لعنوان الصفحة ايضاً
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
+chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس
 
 # مرجع المصطلحات
 

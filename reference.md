@@ -40,6 +40,7 @@ http://zjuwhw.github.io/2017/06/04/MathJax.html
 title: text العنوان - سيضاف لعنوان الصفحة ايضاً
 lesson: true/false عرض أو اخفاء الرقم قبل العنوان
 show_title: true/false عرض أو اخفاء العنوان في الصفحة الرئيسية
+show_index: true/false عرض الملف في الصفحة الرئيسة أو لا
 add_line: true/false اضافة خط أسفل هذا العنوان
 chapter_number: number اضافة رقم قبل الدرس
 chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني) - سيضاف لعنوان الصفحة ايضاً

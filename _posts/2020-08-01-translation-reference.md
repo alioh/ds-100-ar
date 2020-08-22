@@ -2,7 +2,6 @@
 title: المصطلحات العربية وترجمتها
 show_title: true
 chapter_number: 0
-show_index: true
 add_line: true
 layout: default
 ---

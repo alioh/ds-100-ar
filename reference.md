@@ -47,6 +47,21 @@ chapter_text: text رقم الفصل كتابة (مثال: الفصل الثان
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
 chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس
 
+# مثال فهرس بداية الفصل
+
+~~~
+> ### محتوى الفصل:
+> {% for lesson in page.chapter_lessons %}
+> {% assign sublessons = lesson[0] %}
+> - [{{lesson[1]}}](#{{lesson[1]}})
+> {% for sub in page.chapter_sublessons[sublessons] %}
+>   - [{{sub}}](#{{sub}})
+> {% endfor %}
+> {% endfor %}
+> ### ملفات الفصل:  
+> - []({{ site.baseurl }}/files/chapter/file.csv)  
+~~~
+
 # مرجع المصطلحات
 
 |         المصطلح الإنجليزي         |               العربي                |               2العربي                |

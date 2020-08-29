@@ -62,6 +62,9 @@ chapter_sublessons: list inside list, قائمة داخلها قائمة، تح�
 > - []({{ site.baseurl }}/files/chapter/file.csv)  
 ~~~
 
+# Course Syllabus
+http://www.ds100.org/su19/syllabus
+
 # مرجع المصطلحات
 
 |         المصطلح الإنجليزي         |               العربي                |               2العربي                |

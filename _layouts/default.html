@@ -80,7 +80,7 @@
                 </div>
 
                 <div id="content" class="content">
-                    {% if page.url == '/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>{% endif %}
+                    {% if page.url == '/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 
                     <h2>{{page.chapter_text}}: {{page.title}}</h2>
 
@@ -103,7 +103,7 @@
                     {% endfor %}
                     <br>
                     </blockquote>
-                    
+                    {% endif %}
                     {{ content }}
                     <br>
                     <br>

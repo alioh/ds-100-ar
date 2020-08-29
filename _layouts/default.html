@@ -81,6 +81,21 @@
 
                 <div id="content" class="content">
                     {% if page.url == '/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>{% endif %}
+
+                    <h2>{{page.chapter_text}}: {{page.title}}</h2>
+
+                    <blockquote>
+                    <p style="font-size: 1.35em; font-weight: bold;">فهرس الفصل:</p>
+                    {% for lesson in page.chapter_lessons %}
+                        {% assign sublessons = lesson[0] %}
+                        <ul><li><a href="#{{lesson[1]}}">{{lesson[1]}}</a></li>
+                            {% for sub in page.chapter_sublessons[sublessons] %}
+                                <ul><li><a href="#{{sub}}">{{sub}}</a></li></ul>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                    <br><br>
+                    </blockquote>
                     
                     {{ content }}
                     <br>

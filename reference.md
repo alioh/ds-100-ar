@@ -47,7 +47,7 @@ chapter_text: text رقم الفصل كتابة (مثال: الفصل الثان
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
 chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس
 
-# مثال فهرس بداية الفصل
+# مثال فهرس بداية الفصل -- ignore: now it comes automatically
 
 ~~~
 > ### محتوى الفصل:

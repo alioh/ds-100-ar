@@ -88,13 +88,20 @@
                     <p style="font-size: 1.35em; font-weight: bold;">فهرس الفصل:</p>
                     {% for lesson in page.chapter_lessons %}
                         {% assign sublessons = lesson[0] %}
-                        <ul><li><a href="#{{lesson[1]}}">{{lesson[1]}}</a></li>
+                        <ul>
+                            <li>
+                                <a href="#{{lesson[1]}}">{{lesson[1]}}</a>
+                            </li>
                             {% for sub in page.chapter_sublessons[sublessons] %}
-                                <ul><li><a href="#{{sub}}">{{sub}}</a></li></ul>
+                                <ul>
+                                    <li>
+                                        <a href="#{{sub}}">{{sub}}</a>
+                                    </li>
+                                </ul>
                             {% endfor %}
                         </ul>
                     {% endfor %}
-                    <br><br>
+                    <br>
                     </blockquote>
                     
                     {{ content }}

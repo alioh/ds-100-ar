@@ -65,6 +65,9 @@ chapter_sublessons: list inside list, قائمة داخلها قائمة، تح�
 # Course Syllabus
 http://www.ds100.org/su19/syllabus
 
+# Markdown table generator
+https://jakebathman.github.io/Markdown-Table-Generator/
+
 # مرجع المصطلحات
 
 |         المصطلح الإنجليزي         |               العربي                |               2العربي                |

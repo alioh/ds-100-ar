@@ -68,6 +68,10 @@ http://www.ds100.org/su19/syllabus
 # Markdown table generator
 https://jakebathman.github.io/Markdown-Table-Generator/
 
+# for large tables
+
+add tags `<div class="table-wrapper" markdown="block"></div>`
+
 # مرجع المصطلحات
 
 |         المصطلح الإنجليزي         |               العربي                |               2العربي                |

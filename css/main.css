@@ -76,6 +76,8 @@ table thead td {
 }
 
 .language-ruby {
+  overflow-x: auto;
+  overflow-y: auto;
   direction: ltr;
   z-index: 10;
   background-color: #f7f7f7;
@@ -88,6 +90,11 @@ table thead td {
   color: #333333;
 }
 
+.table-wrapper{
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 .language-center-result {
   display: block;
   text-align: -webkit-center;
@@ -96,6 +103,8 @@ table thead td {
 }
 
 .language-python {
+  overflow-x: auto;
+  overflow-y: auto;
   direction: ltr;
   z-index: 10;
   background-color: #e9e9e9;

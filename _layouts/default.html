@@ -80,7 +80,7 @@
                 </div>
 
                 <div id="content" class="content">
-                    {% if page.url == '/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+                    {% if page.url == '/' %}{% elsif page.url == '/translation-reference/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 
                     <h2>{{page.chapter_text}}: {{page.title}}</h2>
 

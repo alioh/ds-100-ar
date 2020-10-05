@@ -8,6 +8,22 @@ bundle exec jekyll serve
 # hide element in print page
 add class name: no-print
 
+# convert to HTML (for students/reviewers)
+- go to chrome.
+- save as html.
+- go to html file and edit the following:
+	- in html tag change sidebar-visible to sidebar-hidden
+	- delete sidebar.
+	- change stylesheets links to ../css/
+	- change links for icons to ../img/
+	- now remove the rest of http://127.0.0.1:4000/ds-100-ar/chapter1/# links
+	- now you should only have one more http://127.0.0.1:4000/ds-100-ar link for title. remove this href.
+	- add change the mathjax link to <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+	- delete everything in top bar except #top and تغير لون الصفحة
+
+
 # local shortcut for ```python/ruby
 - file > preferences > user snippets > markdown.json:
 	"Python code": {

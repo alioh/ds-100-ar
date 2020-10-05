@@ -5,6 +5,9 @@ https://stackoverflow.com/questions/22815542/rails4-unknown-encoding-name-cp720
 # run jekyll locally 
 bundle exec jekyll serve
 
+# hide element in print page
+add class name: no-print
+
 # local shortcut for ```python/ruby
 - file > preferences > user snippets > markdown.json:
 	"Python code": {

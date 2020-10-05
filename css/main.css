@@ -62,6 +62,14 @@ table thead td {
   }
 }
 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 .go-back-top {
   position: fixed;
   bottom: 0;

@@ -22,6 +22,7 @@ add class name: no-print
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 	- delete everything in top bar except #top and تغير لون الصفحة
+	- change ./index_files/book.js.download to ../js/book.js.download
 
 
 # local shortcut for ```python/ruby

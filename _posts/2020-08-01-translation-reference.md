@@ -30,6 +30,7 @@ layout: default
 |Data Design|تصميم البيانات|كيفية بناء البيانات، تختلف كل قاعدة بيانات عن أخرى حسب مُصممها||
 |Bias|تحيز/انحياز|انحياز البيانات لجزء او قيمه معينه عن اخرى.||
 |Quota Sampling|عينة الحصة|عينة تحتوي على بعض او كل صفات وسمات المجتمع الاحصائي||
+|Bootstrap|بوتستراب|عينة من المجتمع تمثلة بشكل جيد|[📝][BootstrapAR]|
 
 [datasetEN]: https://whatis.techtarget.com/definition/data-set
 [datasetAR]: https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA
@@ -45,3 +46,4 @@ layout: default
 [LossFunctionAR]: https://alioh.github.io/100MLBook-Chapter3/
 [ModelEN]: https://machinelearningmastery.com/difference-between-algorithm-and-model-in-machine-learning/
 [MatrixEN]: https://www.youtube.com/watch?v=0oGJTQCy4cQ
+[BootstrapAR]: https://www.youtube.com/watch?v=esm0xFm0ouU

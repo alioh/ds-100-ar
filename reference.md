@@ -16,7 +16,7 @@ add class name: no-print
 	- delete sidebar.
 	- change stylesheets links to ../css/
 	- change links for icons to ../img/
-	- now remove the rest of http://127.0.0.1:4000/ds-100-ar/chapter1/# links
+	- now replace the rest of http://127.0.0.1:4000/ds-100-ar/chapter1/# links with #
 	- now you should only have one more http://127.0.0.1:4000/ds-100-ar link for title. remove this href.
 	- add change the mathjax link to <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">

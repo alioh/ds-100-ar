@@ -95,7 +95,10 @@
                             {% for sub in page.chapter_sublessons[sublessons] %}
                                 <ul>
                                     <li>
+                                        {% if sub.first %}<a href="#{{sub.first}}">{{sub.first}}</a> {% for i in (1..sub.size) %}<ul><li><a href="#{{sub[i]}}">{{sub[i]}}</a></li></ul>{% endfor %}
+                                        {% else %}
                                         <a href="#{{sub}}">{{sub}}</a>
+                                        {% endif %}
                                     </li>
                                 </ul>
                             {% endfor %}

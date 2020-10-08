@@ -65,7 +65,7 @@ add_line: true/false اضافة خط أسفل هذا العنوان
 chapter_number: number اضافة رقم قبل الدرس
 chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني) - سيضاف لعنوان الصفحة ايضاً
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
-chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس
+chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس. يمكن ان تكون داخلها قائمة ثالثه، ولكن يجب ان يكون عنوان القائمه بأول قيمه.
 
 # مثال فهرس بداية الفصل -- ignore: now it comes automatically
 
@@ -87,6 +87,11 @@ http://www.ds100.org/su19/syllabus
 
 # Markdown table generator
 https://jakebathman.github.io/Markdown-Table-Generator/
+how to change to RTL:
+	- Copy table to excel.
+	- move columns from left to right. ( current far right column will be far left ... etc).
+	- copy and paste to the site.
+	- copy result of conversion to markdown file.
 
 # for large tables
 

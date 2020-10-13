@@ -70,6 +70,28 @@ table thead td {
     }
 }
 
+.regex {
+  overflow-x: auto;
+  overflow-y: auto;
+  direction: ltr;
+  z-index: 10;
+  background-color: #f7f7f7;
+  margin-right: inherit;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-family: monospace;
+  display: block;
+  margin: 1em 0px;
+}
+
+.regex span {
+  background-color: yellow;
+}
+
 .go-back-top {
   position: fixed;
   bottom: 0;

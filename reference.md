@@ -13,14 +13,13 @@ add class name: no-print
 - save as html.
 - go to html file and edit the following:
 	- in html tag change sidebar-visible to sidebar-hidden
-	- delete sidebar.
+	- delete sidebar div.
 	- change stylesheets links to ../css/
+	- change js links to ../js/
 	- change links for icons to ../img/
 	- now replace the rest of http://127.0.0.1:4000/ds-100-ar/chapter1/# links with #
 	- now you should only have one more http://127.0.0.1:4000/ds-100-ar link for title. remove this href.
-	- add change the mathjax link to <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+	- add MathJax.js.download to index_files/ then check source in last second line to ./index_files/MathJax.js.download
 	- delete everything in top bar except #top and تغير لون الصفحة
 	- change ./index_files/book.js.download to ../js/book.js.download
 

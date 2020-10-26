@@ -23,6 +23,10 @@ add class name: no-print
 	- delete everything in top bar except #top and تغير لون الصفحة
 	- change ./index_files/book.js.download to ../js/book.js.download
 
+# Video to gif
+- first record screen with OBS
+- then convert video to gof using https://ezgif.com/video-to-gif/
+- if you need to crop you can use the same site to crop/resize
 
 # local shortcut for ```python/ruby
 - file > preferences > user snippets > markdown.json:

@@ -1,6 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        {% if site.google_ad_client %}
+            {% include google_adsense.html %}
+        {% endif %} 
+        
         <meta charset="UTF-8">
         <title>{{ site.title }} {% if page.chapter_text %} - {{ page.chapter_text }}: {{ page.title }} {% endif %} </title>
 

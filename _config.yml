@@ -30,6 +30,8 @@ exclude:
 - README.md
 
 google_analytics: UA-134016492-1
+#google_analytics: G-2R32RX6BYY
+google_ad_client: ca-pub-8513572715092457
 
 # markdown render engine.
 markdown:         kramdown

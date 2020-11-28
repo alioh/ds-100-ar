@@ -14,9 +14,11 @@ add class name: no-print
 - go to html file and edit the following:
 	- in html tag change sidebar-visible to sidebar-hidden
 	- delete sidebar div.
+	- delete google ads.
 	- change stylesheets links to ../css/
 	- change js links to ../js/
 	- change links for icons to ../img/
+	- replace http://127.0.0.1:4000/ds-100-ar/files/ with ../files/
 	- now replace the rest of http://127.0.0.1:4000/ds-100-ar/chapter1/# links with #
 	- now you should only have one more http://127.0.0.1:4000/ds-100-ar link for title. remove this href.
 	- add MathJax.js.download to index_files/ then check source in last second line to ./index_files/MathJax.js.download

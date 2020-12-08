@@ -31,6 +31,11 @@ layout: default
 |Bias|تحيز/انحياز|انحياز البيانات لجزء او قيمه معينه عن اخرى.||
 |Quota Sampling|عينة الحصة|عينة تحتوي على بعض او كل صفات وسمات المجتمع الاحصائي||
 |Bootstrap|بوتستراب|عينة من المجتمع تمثلة بشكل جيد|[📝][BootstrapAR]|
+|Gradient Descent|النزول الإشتقاقي|خوارزمية مهمتها ايجاد قيم المتغيرات التي تقلل من دالة التكلفه|[📝][GradientDescent]
+|Cost Function|دالة التكلفة|دالة تقيس مدى سوء نتائج النموذج|[📝][CostFunction]|
+|Fit|ضبط|ضبط النموذج بأفضل المتغيرات لتجهيزه للتدريب|[📝][Fit]|
+|Train|تدريب|تدريب النموذج على البيانات المتوفره ونتائجها|[📝][Train]|
+|Predict|التوقع (التنبؤ)|النتائج من النموذج بعد تدريبه|[📝][Predict]|
 
 [datasetEN]: https://whatis.techtarget.com/definition/data-set
 [datasetAR]: https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA
@@ -47,3 +52,8 @@ layout: default
 [ModelEN]: https://machinelearningmastery.com/difference-between-algorithm-and-model-in-machine-learning/
 [MatrixEN]: https://www.youtube.com/watch?v=0oGJTQCy4cQ
 [BootstrapAR]: https://www.youtube.com/watch?v=esm0xFm0ouU
+[GradientDescent]: https://machinelearningmastery.com/gradient-descent-for-machine-learning/
+[CostFunction]: https://www.youtube.com/watch?v=euhATa4wgzo
+[Fit]: https://www.datarobot.com/wiki/fitting/
+[Train]: https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss
+[Predict]: https://www.datarobot.com/wiki/prediction/

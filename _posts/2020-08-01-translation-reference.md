@@ -26,16 +26,19 @@ layout: default
 |Sample|عيّنة|جزء من بيانات||
 |Loss Function|دالة الخسارة|دالة تستخدم لقياس النتائج التي تم تصنيفها بشكل خاطئ|[📝][LossFunctionEN] [📝][LossFunctionAR]|
 |Model|نموذج|يطلق على النتيجة بعد تعلم الآلة، النموذج يتعلم عن طريق الخوارزميات، ثم يتم أختبارة على بيانات حقيقية|[📝][ModelEN]|
-|Matrix\Matrices|مصفوفة/مصفوفات|طريقة لعرض البيانات، تستخدم بشكل كثير في العمليات الحسابية وخوارزميات تعلم الآلة وغيرها، تحتوي على أشكال وأحجام مختلفة|[📝][MatrixEN]|
+|Matrix\Matrices|مصفوفة / مصفوفات|طريقة لعرض البيانات، تستخدم بشكل كثير في العمليات الحسابية وخوارزميات تعلم الآلة وغيرها، تحتوي على أشكال وأحجام مختلفة|[📝][Matrix]|
+|Vector|متّجه|طريقة لعرض البيانات على شكل مصفوفه بسطر واحد او عامود واحد|[📝][Vector]|
 |Data Design|تصميم البيانات|كيفية بناء البيانات، تختلف كل قاعدة بيانات عن أخرى حسب مُصممها||
-|Bias|تحيز/انحياز|انحياز البيانات لجزء او قيمه معينه عن اخرى.||
+|Bias|تحيز / انحياز|انحياز البيانات لجزء او قيمه معينه عن اخرى.||
 |Quota Sampling|عينة الحصة|عينة تحتوي على بعض او كل صفات وسمات المجتمع الاحصائي||
 |Bootstrap|بوتستراب|عينة من المجتمع تمثلة بشكل جيد|[📝][BootstrapAR]|
 |Gradient Descent|النزول الإشتقاقي|خوارزمية مهمتها ايجاد قيم المتغيرات التي تقلل من دالة التكلفه|[📝][GradientDescent]
 |Cost Function|دالة التكلفة|دالة تقيس مدى سوء نتائج النموذج|[📝][CostFunction]|
 |Fit|ضبط|ضبط النموذج بأفضل المتغيرات لتجهيزه للتدريب|[📝][Fit]|
 |Train|تدريب|تدريب النموذج على البيانات المتوفره ونتائجها|[📝][Train]|
-|Predict|التوقع (التنبؤ)|النتائج من النموذج بعد تدريبه|[📝][Predict]|
+|Predict|التوقع / التنبؤ|النتائج من النموذج بعد تدريبه|[📝][Predict]|
+|Weight|وزن|طريقة لتحسين نتائج النماذج|[📝][Weight]
+|Features|خصائص/متغيرات|عند تكوين النموذج، نحدد الخصائص التي يعتمد عليها النموذج لإجراء التنبؤات|[📝][Features]
 
 [datasetEN]: https://whatis.techtarget.com/definition/data-set
 [datasetAR]: https://ar.wikipedia.org/wiki/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA
@@ -50,10 +53,13 @@ layout: default
 [LossFunctionEN]: https://machinelearningmastery.com/loss-and-loss-functions-for-training-deep-learning-neural-networks/
 [LossFunctionAR]: https://alioh.github.io/100MLBook-Chapter3/
 [ModelEN]: https://machinelearningmastery.com/difference-between-algorithm-and-model-in-machine-learning/
-[MatrixEN]: https://www.youtube.com/watch?v=0oGJTQCy4cQ
+[Matrix]: https://www.youtube.com/watch?v=0oGJTQCy4cQ
+[Vector]: https://www.mathsisfun.com/algebra/scalar-vector-matrix.html
 [BootstrapAR]: https://www.youtube.com/watch?v=esm0xFm0ouU
 [GradientDescent]: https://machinelearningmastery.com/gradient-descent-for-machine-learning/
 [CostFunction]: https://www.youtube.com/watch?v=euhATa4wgzo
 [Fit]: https://www.datarobot.com/wiki/fitting/
 [Train]: https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss
 [Predict]: https://www.datarobot.com/wiki/prediction/
+[Weight]: https://www.kdnuggets.com/2019/11/machine-learning-what-why-how-weighting.html
+[Features]: https://www.datarobot.com/wiki/feature/

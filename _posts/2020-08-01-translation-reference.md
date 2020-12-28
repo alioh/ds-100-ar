@@ -42,6 +42,8 @@ layout: default
 |Features|خصائص/متغيرات|عند تكوين النموذج، نحدد الخصائص التي يعتمد عليها النموذج لإجراء التنبؤات|[📝][Features]
 |Classifier|مُصنف|الخوارزميه التي تقوم بتصنيف البيانات وتقسيمها|[📝][Classifier]
 |Class|الكلاس/الصنف|هي جميع الدوال، المتغيرات، الخصائص التي تتعلق بالكائن Object|[📝][Class]
+|Weight|الوزن|متغير قابل للتعلم، يستخدم أرقام عشوائية داخل النموذج حتى يصل لنتيجة مناسبه|[📝][Weight]
+|Bias|الإنحياز|متغير قابل للتعلم، يستخدم أرقام عشوائية داخل النموذج حتى يصل لنتيجة مناسبه|[📝][Weight]
 
 
 [datasetEN]: https://whatis.techtarget.com/definition/data-set
@@ -71,3 +73,4 @@ layout: default
 [Features]: https://www.datarobot.com/wiki/feature/
 [Classifier]: https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623
 [Class]: https://www.programiz.com/python-programming/class
+[Weight]: https://deepai.org/machine-learning-glossary-and-terms/weight-artificial-neural-network

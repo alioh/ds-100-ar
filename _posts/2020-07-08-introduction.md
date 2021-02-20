@@ -30,7 +30,7 @@ chapter_text: ""
 -----
 
 شكراً لمن ساعد في إخراج الكتاب بالنسخه العربيه:
-- [نهى الغامدي][nuha].
+- [نهى الغامدي][nuha]: مراجعة الفصل الأول والثاني.
 
 [sam]: http://www.samlau.me/
 [joey]: https://people.eecs.berkeley.edu/~jegonzal/

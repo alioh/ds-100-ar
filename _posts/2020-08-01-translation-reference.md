@@ -49,6 +49,7 @@ layout: default
 |Standardization|التوحيد|طريقة أخرى لإعادة تعين القيم في الاعمدة الرقمية لتكون أقرب إلى المتوسط|[📝][StandardizationNormalization] [📝][StandardizationNormalization2]|
 |Supervised learning|التعلم الموجَّه|يعتمد على البيانات المٌعلْمة في التعلم، يتم تقديم هذة البيانات ونتائجها وتدريب الآلة عليها|[📝][SupervisedUnsupervisedLearning]|
 |Unsupervised learning|التعلم غير الموجَّه|عكس التعلم الموجَّه، الآلة تُعطى بيانات وتتعلم من نفسها عن طريق محاولة إيجاد أنماط، يتم ذلك عن طريق تجميع البيانات التي لدينا إلى مجموعات حسب ما تتشابة فيه|[📝][SupervisedUnsupervisedLearning]|
+|Confusion Matrix|مصفوفة الدقة|أداة تستخدم لقياس أداء ودقة نتائج النماذج|[📝][ConfusionMatrix]|
 
 
 
@@ -91,3 +92,4 @@ layout: default
 [StandardizationNormalization]: https://www.kdnuggets.com/2020/04/data-transformation-standardization-normalization.html
 [StandardizationNormalization2]: https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/
 [SupervisedUnsupervisedLearning]: https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
+[ConfusionMatrix]: https://www.youtube.com/watch?v=8Oog7TXHvFY

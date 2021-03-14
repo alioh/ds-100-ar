@@ -1,8 +1,9 @@
 ---
-title: الاستدلال الاحصائي
+title: اختبار الفرضيات ومجال الثقة
 show_title: true
-chapter_number: 18
-chapter_text: الفصل الثامن عشر
+chapter_text: ""
+show_index: true
+chapter_number: 2
 chapter_lessons: [[0, 'مقدمة'], [1, 'مقدمة عن اختبار الفرضيات'], [2, 'الاختبار بتبديل العينات'], [3, 'استخدام Bootstrap في الانحدار الخطي'], [4, 'Studentized Bootstrap'], [5, 'اساءة استخدام الاحتماليه P-value']]
 chapter_sublessons: [
     [],

@@ -378,7 +378,7 @@ avg_ratings
 
 **mean prompt**| | 
 :-----:|:-----:|:-----:
-**perceived**|**actual**| 
+|**perceived**|**actual**| 
 3.75|**female**|**female**
 4.33|**male**| 
 3.42|**female**|**male**

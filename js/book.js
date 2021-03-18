@@ -118,7 +118,7 @@ $( document ).ready(function() {
             $('.theme-popup').remove();
         } else {
             var popup = $('<div class="theme-popup"></div>')
-                .append($('<a id="share-button" href="https://twitter.com/intent/tweet?text=%D9%85%D8%A8%D8%A7%D8%AF%D8%A6%20%D9%88%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA&url=https://alioh.github.io/ds-100-ar/&hashtags=%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA" target="_blank"><i class="fa fa-twitter" title="المشاركة في تويتر"></i></a> '))
+                .append($('<a id="share-button" href="https://twitter.com/intent/tweet?text=%D9%85%D8%A8%D8%A7%D8%AF%D8%A6%20%D9%88%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA&url=https://alioh.github.io/ds-100-ar/%20@alioh&hashtags=%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA" target="_blank"><i class="fa fa-twitter" title="المشاركة في تويتر"></i></a> '))
                 .append($('<a id="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https://alioh.github.io/ds-100-ar/" target="_blank"><i class="fa fa-linkedin" title="المشاركة في لينكد ان"></i></a> '))
                 .append($('<a id="share-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falioh.github.io%2Fds-100-ar" target="_blank"><i class="fa fa-facebook" title="المشاركة في فيس بوك"></i></a> '))
                 .append($('<a id="share-button" href="https://github.com/alioh/ds-100-ar" target="_blank"><i class="fa fa-github" title="صفحة الكتاب في قيت هب"></i></a>'));

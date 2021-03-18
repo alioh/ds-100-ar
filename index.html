@@ -5,12 +5,11 @@ layout: default
 <div id="content" class="content">
 
 <h1>{{ site.title }}</h1>
-<!-- <p>by {{ site.author.name }}</p> -->
 
 {% for chapter in site.posts reversed %}
   <a name="{{ forloop.index }}"></a>
-  {% if chapter.show_index %}
-    <h2>{{ chapter.title }}</h2><!-- use h2 - why? why not? -->
+  {% if chapter.is_intro %}
+    <h2>{{ chapter.title }}</h2>
     {{ chapter.content }}
   {% endif %}
 {% endfor %}

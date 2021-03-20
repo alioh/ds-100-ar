@@ -1,7 +1,7 @@
 ---
 title: مراجعة فضاء المتّجهات
 show_title: true
-chapter_text: ملحقات
+chapter_text: ملحق
 show_index: true
 appendix: true
 chapter_number: 1

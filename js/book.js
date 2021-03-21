@@ -80,9 +80,9 @@ $( document ).ready(function() {
 
 
     // Print button
-    $("#print-button").click(function(){
-        var printWindow = window.open("print.html");
-    });
+    // $("#print-button").click(function(){
+    //     var printWindow = window.print();
+    // });
 
     if( url.substring(url.lastIndexOf('/')+1) == "print.html" ) {
         window.print();

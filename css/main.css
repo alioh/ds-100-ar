@@ -220,7 +220,7 @@ table thead td {
 }
 .page-wrapper {
   position: absolute;
-  overflow-y: auto;
+  overflow-y: visible;
   left: 315px;
   right: 0;
   top: 0;
@@ -255,7 +255,7 @@ table thead td {
   left: 0;
   bottom: 0;
   padding-right: 15px;
-  overflow-y: auto;
+  overflow-y: visible;
 }
 .content {
   direction: rtl;

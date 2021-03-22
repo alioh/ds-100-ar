@@ -4,6 +4,7 @@ show_title: true
 show_index: true
 is_intro: true
 chapter_text: ""
+chapter_arrow: false
 ---
 
 هذا الكتاب يخص مادة [داتا 100، مبادئ وتقنيات علم البيانات في جامعة كاليفورنيا - بيركلي][ds100].  

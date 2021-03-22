@@ -3,5 +3,3 @@ _site/
 .jekyll-metadata
 _draft/
 .vscode/
-_layouts/default2.html
-fullBook.html

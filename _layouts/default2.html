@@ -53,24 +53,11 @@
                         <li><strong>ملحقات:</strong></li>
                 {% endif %}
                 <li>
-                    {% if chapter.chapter_number %}
-                        <a href="{{ site.baseurl }}{{ chapter.url }}">
-                        {% if chapter.chapter_number == 0%}
-                            {% else %}
-                            <strong>{{ chapter.chapter_number }}. </strong>
-                        {% endif %}
-                        {{ chapter.title }}</a>  <span class="chapter_title">
-                        {% if chapter.chapter_arrow == false%}
-                            {% else %}
-                            <i class="fa fa-sort-desc"></i>
-                        {% endif %}</span>
-                            {% else %}
-                            <a href="{{ site.baseurl }}/#{{ chapter.title }}">{{ chapter.title }}
-                    {% endif %}</a>
+                    {% if chapter.chapter_number %}<a href="#{{ chapter.title }}">{% if chapter.chapter_number == 0%}{% else %}<strong>{{ chapter.chapter_number }}. </strong>{% endif %} {{ chapter.title }}</a>  <span class="chapter_title">  {% if chapter.chapter_number == 0%}{% else %}<i class="fa fa-sort-desc"></i>{% endif %}</span>{% else %}<a href="#{{ chapter.title }}">{{ chapter.title }}{% endif %}</a>
                     {% if chapter.chapter_lessons %} 
                         <ul class="chapter" id="hidden_item">
                         {% for lesson in chapter.chapter_lessons %}
-                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="{{ site.baseurl }}{{ chapter.url }}#{{lesson[1]}}">{{lesson[1]}}</a></li>
+                            <li>{{lesson[0]}}.{{ chapter.chapter_number }} <a href="#{{lesson[1]}}">{{lesson[1]}}</a></li>
                         {% endfor %}
                         </ul>
                     {% endif %}
@@ -94,39 +81,12 @@
                         <i id="theme-toggle" class="fa fa-paint-brush" title="تغير لون الصفحة"></i>
                         <i id="share-toggle" class="fa fa-share-alt" title="مشاركة الكتاب"></i>
                     </div>
-                    <!-- <h1 class="menu-title">{{ site.title }}</h1> -->
                     <div class="right-buttons">
                     </div>
                 </div>
 
                 <div id="content" class="content">
-                    {% if page.url == '/' %}{% elsif page.url == '/translation-reference/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
-
-                    <h2>{{page.chapter_text}}: {{page.title}}</h2>
-
-                    <blockquote>
-                    <p style="font-size: 1.35em; font-weight: bold;">فهرس الفصل:</p>
-                    {% for lesson in page.chapter_lessons %}
-                        {% assign sublessons = lesson[0] %}
-                        <ul>
-                            <li>
-                                <a href="#{{lesson[1]}}">{{lesson[1]}}</a>
-                            </li>
-                            {% for sub in page.chapter_sublessons[sublessons] %}
-                                <ul>
-                                    <li>
-                                        {% if sub.first %}<a href="#{{sub.first}}">{{sub.first}}</a> <ul>{% for i in (1..sub.size) %}{% if i == sub.size %}{% break %}{% else %}<li><a href="#{{sub[i]}}">{{sub[i]}}</a></li>{% endif %}{% endfor %}</ul>
-                                        {% else %}
-                                        <a href="#{{sub}}">{{sub}}</a>
-                                        {% endif %}
-                                    </li>
-                                </ul>
-                            {% endfor %}
-                        </ul>
-                    {% endfor %}
                     <br>
-                    </blockquote>
-                    {% endif %}
                     {{ content }}
                     <br>
                     <br>

@@ -30,7 +30,7 @@ add class name: no-print
 - then convert video to gof using https://ezgif.com/video-to-gif/
 - if you need to crop you can use the same site to crop/resize
 
-# local shortcut for ```python/ruby
+# vscode shortcut for ```python/ruby
 - file > preferences > user snippets > markdown.json:
 	"Python code": {
 		"prefix": "`p",
@@ -71,24 +71,8 @@ chapter_number: number اضافة رقم قبل الدرس
 chapter_text: text رقم الفصل كتابة (مثال: الفصل الثاني) - سيضاف لعنوان الصفحة ايضاً
 chapter_lessons: list inside list, قائمة داخلها قائمة، كل قائمة العنصر الأول فيها رقم الدرس والعنصر الثاني عنوانة
 chapter_sublessons: list inside list, قائمة داخلها قائمة، تحتوي على الفصول داخل كل درس. يمكن ان تكون داخلها قائمة ثالثه، ولكن يجب ان يكون عنوان القائمه بأول قيمه.
+appendix: اضافة كلمة مراجع قبل
 
-# مثال فهرس بداية الفصل -- ignore: now it comes automatically
-
-~~~
-> ### محتوى الفصل:
-> {% for lesson in page.chapter_lessons %}
-> {% assign sublessons = lesson[0] %}
-> - [{{lesson[1]}}](#{{lesson[1]}})
-> {% for sub in page.chapter_sublessons[sublessons] %}
->   - [{{sub}}](#{{sub}})
-> {% endfor %}
-> {% endfor %}
-> ### ملفات الفصل:  
-> - []({{ site.baseurl }}/files/chapter/file.csv)  
-~~~
-
-# Course Syllabus
-http://www.ds100.org/su19/syllabus
 
 # Markdown table generator
 https://tableconvert.com/
@@ -103,7 +87,7 @@ how to change to RTL:
 
 add tags `<div class="table-wrapper" markdown="block"></div>`
 
-# مرجع المصطلحات
+# مرجع المصطلحات 2
 
 |         المصطلح الإنجليزي         |               العربي                |               2العربي                |
 |:---------------------------------:|:-----------------------------------:|:-----------------------------------:|

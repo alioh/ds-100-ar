@@ -38,7 +38,7 @@ table thead td {
   font-weight: 700;
 }
 .sidebar {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   bottom: 0;

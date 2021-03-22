@@ -11,8 +11,8 @@ github:
 ########
 # more settings
 
-baseurl: /ds-100-ar
-url: ''
+url:              ''
+baseurl:          '/ds-100-ar'
 rss:              RSS
 
 permalink: /:title/
@@ -27,7 +27,7 @@ collections:
 #   style:    expanded
 
 exclude:
-- README.md
+- _drafts
 
 google_analytics: UA-134016492-1
 #google_analytics: G-2R32RX6BYY

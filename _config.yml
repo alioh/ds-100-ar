@@ -2,25 +2,17 @@
 # book (meta) info
 
 title: مبادئ وتقنيات علم البيانات
-author: 
-  name: Ali Alohali
+author: علي العوهلي
 
-########
-# more settings
+version:          1.0
+gitbook_version:  3.2.3
 
 url:              ''
-baseurl:          '/ds-100-ar'
+baseurl:          '/IHI-QI104'
 rss:              RSS
 
-collections:
-  chapters:
-      output: false
-
-# sass:
-#   sass_dir: css
-#   style:    expanded
-
 google_analytics: UA-134016492-1
+#google_analytics: G-2R32RX6BYY
 google_ad_client: ca-pub-8513572715092457
 
 # markdown render engine.
@@ -41,7 +33,7 @@ markdown_ext:     markdown,mkdown,mkdn,mkd,md
 permalink:        /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
-- _drafts
+  - _drafts
 
 destination:      ./_site
 incremental:      false

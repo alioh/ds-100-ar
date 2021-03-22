@@ -12,9 +12,6 @@ url:              ''
 baseurl:          '/ds-100-ar'
 rss:              RSS
 
-permalink: /:title/
-
-
 collections:
   chapters:
       output: false
@@ -22,8 +19,6 @@ collections:
 # sass:
 #   sass_dir: css
 #   style:    expanded
-
-
 
 google_analytics: UA-134016492-1
 google_ad_client: ca-pub-8513572715092457

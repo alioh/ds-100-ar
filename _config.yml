@@ -5,9 +5,6 @@ title: مبادئ وتقنيات علم البيانات
 author: 
   name: Ali Alohali
 
-github:
-  url: "https://github.com/bookdesigns/book-epsilon"
-
 ########
 # more settings
 
@@ -26,11 +23,9 @@ collections:
 #   sass_dir: css
 #   style:    expanded
 
-exclude:
-- _drafts
+
 
 google_analytics: UA-134016492-1
-#google_analytics: G-2R32RX6BYY
 google_ad_client: ca-pub-8513572715092457
 
 # markdown render engine.
@@ -46,6 +41,12 @@ kramdown:
     guess_lang:           true
 
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:        /:categories/:year-:month-:day-:title:output_ext
+
+exclude:
+- _drafts
 
 destination:      ./_site
 incremental:      false

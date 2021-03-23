@@ -25,17 +25,17 @@
 -----
 
 شكراً لمن ساعد في إخراج الكتاب بالنسخه العربيه، مجموعة من حصلو على نسخة أولية للكتاب:
-- نورة الشلوي.
+- [نورة الشلوي][nora].
 - [نهى الغامدي][nuha].
-- غدير محمد.
+- [غدير محمد][ghadeer].
 - منال القحطاني.
 - رشا الشهري.
-- رغد يحيى.
+- [رغد يحيى][raghad].
 - حسن طارق.
 - العنود العنقري.
-- سجا الدرع.
-- شروق حريصي.
-- أسيل المسعد.
+- [سجا الدرع][saja].
+- [شروق حريصي][shroog].
+- [أسيل المسعد][aseel].
 
 
 [sam]: http://www.samlau.me/
@@ -47,3 +47,9 @@
 [ds100]: http://www.ds100.org/
 [ActivationFunction1]: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
 [ActivationFunction2]: https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6
+[saja]: https://www.linkedin.com/in/saja-aldera-50095241/
+[nora]: https://www.linkedin.com/in/norah-shalawi/
+[aseel]: https://twitter.com/AAlmesad
+[raghad]: https://www.linkedin.com/in/raghad-aati/
+[ghadeer]: https://www.linkedin.com/in/ghadeer-mohammed-441b8517b/
+[shroog]: https://www.linkedin.com/in/shuruqhuraysi/

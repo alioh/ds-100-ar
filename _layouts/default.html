@@ -45,16 +45,7 @@
             else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
         </script>
         
-        <div id="sidebar" class="sidebar" dir="rtl">
-<amp-ad width="100vw" height="320"
-     type="adsense"
-     data-ad-client="ca-pub-8513572715092457"
-     data-ad-slot="2091870277"
-     data-auto-format="rspv"
-     data-full-width="">
-  <div overflow=""></div>
-</amp-ad>
-            
+        <div id="sidebar" class="sidebar" dir="rtl">          
             <ul class="chapter">
                 <li><a href="{{ site.baseurl }}/"><strong>الصفحة الرئيسية</strong></a><hr class="solid"></li>
                 {% for chapter in site.posts reversed %}
@@ -111,6 +102,14 @@
                 </div>
 
                 <div id="content" class="content">
+                    <amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-8513572715092457"
+     data-ad-slot="2091870277"
+     data-auto-format="rspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
                     {% if page.url == '/' %}{% elsif page.url == '/translation-reference/' %}{% else %}<h1><a id="translator-button" href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 
                     <h2>{{page.chapter_text}}: {{page.title}}</h2>

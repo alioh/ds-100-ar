@@ -3,6 +3,7 @@
 
 title: مبادئ وتقنيات علم البيانات
 author: علي العوهلي
+description: 'كتاب مترجم للعربية عن مبادئ وتقنيات علم البيانات (Data 100) بجامعة كاليفورنيا - بيركلي.'
 
 ########
 # more settings
@@ -48,3 +49,5 @@ regenerate:       true
 
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        {% include analytics.html %}
         {% if site.google_ad_client %}
             {% include google_adsense.html %}
         {% endif %} 
-        {% include analytics.html %}
+
         <meta charset="UTF-8">
         <title>{{ site.title }} {% if page.chapter_text %} - {{ page.chapter_text }}: {{ page.title }} {% endif %} </title>
 
@@ -12,6 +13,7 @@
 
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Calibri:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

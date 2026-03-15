@@ -13,6 +13,9 @@ body {
 .hidden {
   display: none;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
 h2,
 h3 {
   margin-top: 2.5em;
@@ -302,6 +305,7 @@ table thead td {
 }
 .menu-title {
   display: inline-block;
+  font-family: 'Noto Kufi Arabic', sans-serif;
   font-weight: 200;
   font-size: 20px;
   line-height: 50px;
@@ -439,7 +443,7 @@ table thead td {
 .light .content .header:link,
 .light .content .header:visited {
   color: #333;
-  pointer: cursor;
+  cursor: pointer;
 }
 .light .content .header:link:hover,
 .light .content .header:visited:hover {
@@ -555,7 +559,7 @@ table thead td {
 .coal .content .header:link,
 .coal .content .header:visited {
   color: #98a3ad;
-  pointer: cursor;
+  cursor: pointer;
 }
 .coal .content .header:link:hover,
 .coal .content .header:visited:hover {
@@ -670,7 +674,7 @@ table thead td {
 .navy .content .header:link,
 .navy .content .header:visited {
   color: #bcbdd0;
-  pointer: cursor;
+  cursor: pointer;
 }
 .navy .content .header:link:hover,
 .navy .content .header:visited:hover {
@@ -785,7 +789,7 @@ table thead td {
 .rust .content .header:link,
 .rust .content .header:visited {
   color: #262625;
-  pointer: cursor;
+  cursor: pointer;
 }
 .rust .content .header:link:hover,
 .rust .content .header:visited:hover {
